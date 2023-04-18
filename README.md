@@ -1,5 +1,7 @@
 # gpt_java_api_demo
 
+https://platform.openai.com/docs/guides/chat
+
 change API key:
 
 ```diff
