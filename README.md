@@ -1,5 +1,12 @@
 # gpt_java_api_demo
 
+change API key:
+
+```diff
+- String apiKey = "YOUR_API_KEY";
++ String apiKey = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+```
+
 compile:
 
 ```shell
