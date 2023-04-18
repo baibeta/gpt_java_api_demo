@@ -3,13 +3,17 @@
 compile:
 
 ```shell
-> javac -cp .;* ChatGPTClient.java
+## windows:
+> javac -cp .;jars/* ChatGPTClient.java
+
+## linux:
+> javac -cp .:jars/* ChatGPTClient.java
 ```
 
 run:
 
 ```shell
-> java -cp .;* ChatGPTClient
+> java -cp .;jars/* ChatGPTClient
 
 1. Please input your question:
 1+1等于几
