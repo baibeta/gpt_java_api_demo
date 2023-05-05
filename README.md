@@ -36,3 +36,10 @@ run:
 Finish demo! 
 ```
 
+stream mode:
+
+```shell
+## windows:
+> javac -cp .;jars/* ChatGPTClientStream.java
+> java -cp .;jars/* ChatGPTClientStream
+```
