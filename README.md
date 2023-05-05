@@ -1,6 +1,7 @@
 # gpt_java_api_demo
 
 https://platform.openai.com/docs/guides/chat
+https://platform.openai.com/docs/api-reference/
 
 change API key:
 
