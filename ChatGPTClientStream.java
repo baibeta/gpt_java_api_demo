@@ -23,6 +23,12 @@ public class ChatGPTClientStream {
         Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("172.16.10.8", 7890));
         OkHttpClient client = new OkHttpClient.Builder().proxy(proxy).build();
 
+	if (apiKey.startsWith("YOUR")) {
+	    System.out.println("Please change the api key first.");
+	    return;
+	}
+
+
 		JSONObject json = new JSONObject();
 		json.put("model", "gpt-3.5-turbo");
 		json.put("temperature", 0.4f);

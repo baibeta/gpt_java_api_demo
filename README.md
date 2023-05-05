@@ -42,4 +42,10 @@ stream mode:
 ## windows:
 > javac -cp .;jars/* ChatGPTClientStream.java
 > java -cp .;jars/* ChatGPTClientStream
+
+## linux:
+> javac -cp .:jars/* ChatGPTClientStream.java
+> java -cp .:jars/* ChatGPTClientStream
 ```
+
+![](stream.gif)
